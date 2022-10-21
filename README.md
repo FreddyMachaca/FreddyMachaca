@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Freddy Machaca</h1>
-<h3 align="center">A passionate backend developer</h3>
+
 
 <p align="left">
 </p>
