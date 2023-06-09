@@ -14,15 +14,15 @@
   <a href="https://github.com/FreddyMachaca">
     <img
       align="center"
-      height="150em"
-      src="https://github-readme-stats.vercel.app/api?username=FreddyMachaca&show_icons=true&theme=radical"
+      height="180em"
+      src="https://github-readme-stats.vercel.app/api?username=FreddyMachaca&show_icons=true&theme=dark"
     />
   </a>
   <a href="https://github.com/FreddyMachaca">
     <img
       align="center"
-      height="150em"
-      src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=FreddyMachaca&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=radical"
+      height="180em"
+      src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=FreddyMachaca&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=dark"
     />
   </a>
   </a>
@@ -31,8 +31,8 @@
   <a href="https://github.com/FreddyMachaca">
     <img
       align="center"
-      height="150em"
-      src="https://github-readme-streak-stats.herokuapp.com/?user=FreddyMachaca&theme=dark&hide_border=false&layout=compact&theme=radical"
+      height="180em"
+      src="https://github-readme-streak-stats.herokuapp.com/?user=FreddyMachaca&theme=dark&hide_border=false&layout=compact&theme=dark"
     />
   </a>
 </p>
