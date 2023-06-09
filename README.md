@@ -15,14 +15,14 @@
     <img
       align="center"
       height="150em"
-      src="https://github-readme-stats-sigma-five.vercel.app/api?username=FreddyMachaca&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight"
+      src="https://github-readme-stats-sigma-five.vercel.app/api?username=FreddyMachaca&show_icons=true&include_all_commits=true&count_private=true&theme=radical"
     />
   </a>
   <a href="https://github.com/FreddyMachaca">
     <img
       align="center"
       height="150em"
-      src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=FreddyMachaca&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=tokyonight"
+      src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=FreddyMachaca&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=radical"
     />
   </a>
 </p>
