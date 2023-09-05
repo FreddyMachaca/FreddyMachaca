@@ -18,7 +18,7 @@
     <img
       align="center"
       height="180em"
-      src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=FreddyMachaca&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=dark"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreddyMachaca&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
     />
   </a>
   </a>
