@@ -6,11 +6,6 @@
       50% { opacity: 0; }
     }
     
-    @keyframes typing {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-    
     @keyframes glow {
       0%, 100% { filter: drop-shadow(0 0 2px #00FF00); }
       50% { filter: drop-shadow(0 0 5px #00FF00); }
@@ -21,14 +16,11 @@
     }
     
     .command {
-      animation: typing 1.5s steps(20, end);
+      opacity: 1;
     }
     
     .response {
-      animation: typing 1.5s steps(30, end);
-      animation-delay: 1.5s;
-      opacity: 0;
-      animation-fill-mode: forwards;
+      opacity: 1;
     }
     
     .box-line {
@@ -36,21 +28,12 @@
     }
     
     .stack-item {
-      animation: typing 0.5s;
-      opacity: 0;
-      animation-fill-mode: forwards;
-    }
-    
-    /* Nueva clase para el backend sin animación */
-    .stack-item-no-anim {
       opacity: 1;
     }
     
-    .stack-item:nth-child(2) { animation-delay: 2.3s; }
-    .stack-item:nth-child(3) { animation-delay: 2.6s; }
-    .stack-item:nth-child(4) { animation-delay: 2.9s; }
-    .stack-item:nth-child(5) { animation-delay: 3.2s; }
-    .stack-item:nth-child(6) { animation-delay: 3.5s; }
+    .stack-item-no-anim {
+      opacity: 1;
+    }
   </style>
   
   <rect width="950" height="420" rx="10" ry="10" fill="#1E1E1E" />
