@@ -101,7 +101,7 @@
       <text x="150" y="240" fill="#FFCC00" class="box-line">│</text>
       <rect x="160" y="222" width="80" height="24" class="green-bg" />
       <text x="165" y="240" fill="#00FF00" class="green-text">Mobile:</text>
-      <text x="245" y="240" fill="#FFFFFF">React Native, Java</text>
+      <text x="245" y="240" fill="#FFFFFF">React Native, Android SDK (Java)</text>
       <text x="755" y="240" fill="#FFCC00" class="box-line">│</text>
     </g>
     
