@@ -49,8 +49,12 @@
     <text x="150" y="60" fill="#00FF00" class="command">$ whoami</text>
     <text x="150" y="85" fill="#CCCCCC" class="response">Freddy Machaca - Software Developer</text>
     <text x="150" y="115" fill="#00FF00" class="command">$ terminal stack --show</text>
-    <text x="150" y="140" fill="#FFCC00" class="box-line">╭─────────────────────────── STACK ───────────────────────────╮</text>
-    <text x="150" y="165" fill="#FFCC00">│                                                             │</text>
+    <text x="150" y="139" fill="#FFCC00" class="box-line">╭─────────────────────────── STACK ──────────────────────────╮</text>
+    <text x="150" y="165" fill="#FFCC00">│                                                            │</text>
+
+    <g class="stack-item">
+      <text x="755" y="165" fill="#FFCC00">│</text>
+    </g>
     
     <g class="stack-item-no-anim">
       <text x="150" y="190" fill="#FFCC00">│</text>
@@ -93,9 +97,12 @@
       <text x="210" y="315" fill="#FFFFFF">Linux (Arch, Fedora)</text>
       <text x="755" y="315" fill="#FFCC00">│</text>
     </g>
+    <g class="stack-item">
+      <text x="755" y="340" fill="#FFCC00">│</text>
+    </g>
     
-    <text x="150" y="340" fill="#FFCC00">│                                                             │</text>
-    <text x="150" y="365" fill="#FFCC00" class="box-line">╰─────────────────────────────────────────────────────────────╯</text>
+    <text x="150" y="340" fill="#FFCC00">│                                                            │</text>
+    <text x="150" y="366" fill="#FFCC00" class="box-line">╰────────────────────────────────────────────────────────────╯</text>
     
     <text x="150" y="395" fill="#00FF00">$</text>
     <text x="165" y="395" fill="#00FF00" class="cursor">_</text>
