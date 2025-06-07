@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="950" height="420" viewBox="0 0 950 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="950" height="420" rx="10" ry="10" fill="#1E1E1E" />
+  
+  <!-- Contenido del terminal -->
+  <g font-family="Monaco, Consolas, 'Courier New', monospace" font-size="18">
+    <!-- Prompt 1 -->
+    <text x="150" y="35" fill="#00FF00">$ whoami</text>
+    <!-- Respuesta 1 -->
+    <text x="150" y="60" fill="#CCCCCC">Freddy Machaca - Software Developer</text>
+    
+    <!-- Prompt 2 -->
+    <text x="150" y="90" fill="#00FF00">$ terminal stack --show</text>
+    
+    <!-- Box top - Adjusted to align with vertical line -->
+    <text x="150" y="115" fill="#FFCC00">╭─────────────────────────── STACK ───────────────────────────╮</text>
+    <!-- Box content -->
+    <text x="150" y="140" fill="#FFCC00">│                                                             │</text>
+    
+    <text x="150" y="165" fill="#FFCC00">│</text>
+    <text x="165" y="165" fill="#00FF00">Backend:</text>
+    <text x="245" y="165" fill="#FFFFFF">Java, Spring, NodeJS, Express</text>
+    <text x="754" y="165" fill="#FFCC00">│</text>
+    
+    <text x="150" y="190" fill="#FFCC00">│</text>
+    <text x="165" y="190" fill="#00FF00">Frontend:</text>
+    <text x="265" y="190" fill="#FFFFFF">React, Angular, JavaScript</text>
+    <text x="754" y="190" fill="#FFCC00">│</text>
+    
+    <text x="150" y="215" fill="#FFCC00">│</text>
+    <text x="165" y="215" fill="#00FF00">Mobile:</text>
+    <text x="245" y="215" fill="#FFFFFF">Flutter, Dart</text>
+    <text x="754" y="215" fill="#FFCC00">│</text>
+    
+    <text x="150" y="240" fill="#FFCC00">│</text>
+    <text x="165" y="240" fill="#00FF00">Databases:</text>
+    <text x="265" y="240" fill="#FFFFFF">MySQL, PostgreSQL, MongoDB</text>
+    <text x="754" y="240" fill="#FFCC00">│</text>
+    
+    <text x="150" y="265" fill="#FFCC00">│</text>
+    <text x="165" y="265" fill="#00FF00">DevOps:</text>
+    <text x="245" y="265" fill="#FFFFFF">Docker, Git, CI/CD</text>
+    <text x="754" y="265" fill="#FFCC00">│</text>
+    
+    <text x="150" y="290" fill="#FFCC00">│</text>
+    <text x="165" y="290" fill="#00FF00">OS:</text>
+    <text x="210" y="290" fill="#FFFFFF">Linux (Arch, Fedora)</text>
+    <text x="754" y="290" fill="#FFCC00">│</text>
+    
+    <text x="150" y="315" fill="#FFCC00">│                                                             │</text>
+    <!-- Box bottom - Adjusted to align with vertical line -->
+    <text x="150" y="340" fill="#FFCC00">╰─────────────────────────── STACK ───────────────────────────╯</text>
+    
+    <!-- Next prompt -->
+    <text x="150" y="370" fill="#00FF00">$ _</text>
+  </g>
+</svg>
