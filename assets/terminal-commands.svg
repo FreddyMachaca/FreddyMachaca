@@ -41,7 +41,11 @@
       animation-fill-mode: forwards;
     }
     
-    .stack-item:nth-child(1) { animation-delay: 2s; }
+    /* Nueva clase para el backend sin animación */
+    .stack-item-no-anim {
+      opacity: 1;
+    }
+    
     .stack-item:nth-child(2) { animation-delay: 2.3s; }
     .stack-item:nth-child(3) { animation-delay: 2.6s; }
     .stack-item:nth-child(4) { animation-delay: 2.9s; }
@@ -74,7 +78,8 @@
     <!-- Box content -->
     <text x="150" y="165" fill="#FFCC00">│                                                             │</text>
     
-    <g class="stack-item">
+    <!-- Se cambió la clase de stack-item a stack-item-no-anim para el Backend -->
+    <g class="stack-item-no-anim">
       <text x="150" y="190" fill="#FFCC00">│</text>
       <text x="165" y="190" fill="#00FF00">Backend:</text>
       <text x="245" y="190" fill="#FFFFFF">Java, Spring, NodeJS, Express</text>
