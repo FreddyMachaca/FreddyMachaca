@@ -71,7 +71,7 @@
     <text x="150" y="60" fill="#00FF00" class="command green-text">$ whoami</text>
     
     <text x="150" y="85" fill="#CCCCCC" class="response">Freddy Machaca - Software Developer</text>
-    <rect x="152" y="97" width="230" height="24" class="green-bg" />
+    <rect x="182" y="97" width="230" height="24" class="green-bg" />
     <text x="150" y="115" fill="#00FF00" class="command green-text">$ terminal stack --show</text>
     
     <text x="150" y="139" fill="#FFCC00" class="box-line">╭─────────────────────────── STACK ──────────────────────────╮</text>
