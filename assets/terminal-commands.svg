@@ -74,7 +74,7 @@
     <rect x="145" y="98" width="260" height="24" class="green-bg" />
     <text x="150" y="115" fill="#00FF00" class="command green-text">$ terminal stack --show</text>
     
-    <text x="150" y="139" fill="#FFCC00" class="box-line">╭──────────────────────── STACK ────────────────────────╮</text>
+    <text x="150" y="137" fill="#FFCC00" class="box-line">╭──────────────────────── STACK ────────────────────────╮</text>
     <text x="150" y="165" fill="#FFCC00" class="box-line">│                                                            │</text>
 
     <g class="stack-item">
