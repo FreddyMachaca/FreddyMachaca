@@ -1,142 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="950" height="420" viewBox="0 0 950 420" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="320" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="terminalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff41;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00ff88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ff41;stop-opacity:0.8" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
   <style>
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
-    
-    @keyframes glow {
-      0%, 100% { filter: drop-shadow(0 0 2px #00FF00); }
-      50% { filter: drop-shadow(0 0 5px #00FF00); }
-    }
-    
     @keyframes pulse {
-      0%, 100% { filter: brightness(1); }
-      50% { filter: brightness(1.3); }
+      0%, 100% { filter: brightness(1) drop-shadow(0 0 5px #00ff41); }
+      50% { filter: brightness(1.3) drop-shadow(0 0 10px #00ff88); }
     }
-    
-    @keyframes greenBgGlow {
-      0%, 100% { fill-opacity: 0.05; }
-      50% { fill-opacity: 0.2; }
+    @keyframes typewriter {
+      0% { width: 0; }
+      100% { width: 100%; }
     }
-    
     .cursor {
       animation: blink 1s step-end infinite;
     }
-    
     .command {
-      opacity: 1;
-    }
-    
-    .response {
-      opacity: 1;
-    }
-    
-    .box-line {
-      animation: glow 3s infinite;
-    }
-    
-    .green-text {
       animation: pulse 2s infinite;
     }
-    
-    .green-bg {
-      fill: #00FF00;
-      animation: greenBgGlow 3s infinite;
-      rx: 4;
-      ry: 4;
-    }
-    
-    .stack-item {
-      opacity: 1;
-    }
-    
-    .stack-item-no-anim {
-      opacity: 1;
+    .tech-highlight {
+      font-weight: bold;
     }
   </style>
-  
-  <rect width="950" height="420" rx="10" ry="10" fill="#1E1E1E" />
-  <rect x="5" y="5" width="940" height="410" rx="8" ry="8" fill="#2D2D2D" stroke="#3D3D3D" stroke-width="1" />
-  
-  <rect x="10" y="10" width="930" height="25" rx="5" ry="5" fill="#3D3D3D" />
-  <circle cx="25" cy="22" r="7" fill="#FF5F56" />
-  <circle cx="45" cy="22" r="7" fill="#FFBD2E" />
-  <circle cx="65" cy="22" r="7" fill="#27C93F" />
-  <text x="475" y="27" fill="#AAAAAA" font-family="Arial" font-size="12" text-anchor="middle">terminal</text>
-  
-  <g font-family="Monaco, Consolas, 'Courier New', monospace" font-size="18">
-    <rect x="145" y="42" width="95" height="24" class="green-bg" />
-    <text x="150" y="60" fill="#00FF00" class="command green-text">$ whoami</text>
-    
-    <text x="160" y="85" fill="#CCCCCC" class="response">Freddy Machaca - Software Developer</text>
-    <rect x="145" y="98" width="260" height="24" class="green-bg" />
-    <text x="150" y="115" fill="#00FF00" class="command green-text">$ terminal stack --show</text>
-    
-    <text x="150" y="137" fill="#FFCC00" class="box-line">╭──────────────────────── STACK ────────────────────────╮</text>
-    <text x="150" y="165" fill="#FFCC00" class="box-line">│                                                            │</text>
-
+  <rect width="800" height="320" rx="12" ry="12" fill="url(#terminalGradient)" />
+  <rect x="2" y="2" width="796" height="316" rx="10" ry="10" fill="none" stroke="url(#greenGlow)" stroke-width="1" opacity="0.6" />
+  <rect x="8" y="8" width="784" height="28" rx="6" ry="6" fill="#2d3748" />
+  <circle cx="24" cy="22" r="6" fill="#ff5f57" />
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e" />
+  <circle cx="64" cy="22" r="6" fill="#28ca42" />
+  <text x="400" y="26" fill="#a0aec0" font-family="SF Mono, Monaco, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="500">terminal — Freddy Machaca</text>
+  <g font-family="SF Mono, Monaco, Consolas, 'Courier New', monospace" font-size="16">
+    <text x="20" y="60" fill="#00ff41" class="command" filter="url(#textGlow)">➜ whoami</text>
+    <text x="30" y="82" fill="#e2e8f0" opacity="0.9">Freddy Machaca - Software Developer</text>
+    <line x1="20" y1="95" x2="780" y2="95" stroke="url(#greenGlow)" stroke-width="1" opacity="0.3" />
+    <text x="20" y="118" fill="#00ff41" class="command" filter="url(#textGlow)">➜ terminal stack --show</text>
     <g class="stack-item">
-      <text x="755" y="165" fill="#FFCC00" class="box-line">│</text>
-    </g>
-    
-    <g class="stack-item-no-anim">
-      <text x="150" y="190" fill="#FFCC00" class="box-line">│</text>
-      <rect x="160" y="172" width="80" height="24" class="green-bg" />
-      <text x="165" y="190" fill="#00FF00" class="green-text">Backend:</text>
-      <text x="250" y="190" fill="#FFFFFF">Java, Spring, NodeJS, Express</text>
-      <text x="755" y="190" fill="#FFCC00" class="box-line">│</text>
-    </g>
-    
-    <g class="stack-item">
-      <text x="150" y="215" fill="#FFCC00" class="box-line">│</text>
-      <rect x="160" y="197" width="100" height="24" class="green-bg" />
-      <text x="165" y="215" fill="#00FF00" class="green-text">Frontend:</text>
-      <text x="265" y="215" fill="#FFFFFF">React, Angular, JavaScript</text>
-      <text x="755" y="215" fill="#FFCC00" class="box-line">│</text>
-    </g>
-    
-    <g class="stack-item">
-      <text x="150" y="240" fill="#FFCC00" class="box-line">│</text>
-      <rect x="160" y="222" width="80" height="24" class="green-bg" />
-      <text x="165" y="240" fill="#00FF00" class="green-text">Mobile:</text>
-      <text x="245" y="240" fill="#FFFFFF">React Native, Android SDK (Java)</text>
-      <text x="755" y="240" fill="#FFCC00" class="box-line">│</text>
-    </g>
-    
-    <g class="stack-item">
-      <text x="150" y="265" fill="#FFCC00" class="box-line">│</text>
-      <rect x="160" y="247" width="100" height="24" class="green-bg" />
-      <text x="165" y="265" fill="#00FF00" class="green-text">Databases:</text>
-      <text x="275" y="265" fill="#FFFFFF">MySQL, MariaDB, PostgreSQL, MongoDB</text>
-      <text x="755" y="265" fill="#FFCC00" class="box-line">│</text>
-    </g>
-    
-    <g class="stack-item">
-      <text x="150" y="290" fill="#FFCC00" class="box-line">│</text>
-      <rect x="160" y="272" width="80" height="24" class="green-bg" />
-      <text x="165" y="290" fill="#00FF00" class="green-text">DevOps:</text>
-      <text x="245" y="290" fill="#FFFFFF">Docker, Git, CI/CD</text>
-      <text x="755" y="290" fill="#FFCC00" class="box-line">│</text>
-    </g>
-    
-    <g class="stack-item">
-      <text x="150" y="315" fill="#FFCC00" class="box-line">│</text>
-      <rect x="160" y="297" width="37" height="24" class="green-bg" />
-      <text x="165" y="315" fill="#00FF00" class="green-text">OS:</text>
-      <text x="200" y="315" fill="#FFFFFF">Linux (Arch, Fedora)</text>
-      <text x="755" y="315" fill="#FFCC00" class="box-line">│</text>
+      <rect x="25" y="132" width="12" height="2" fill="#ff6b6b" rx="1" />
+      <text x="45" y="142" fill="#ff6b6b" class="tech-highlight">Backend</text>
+      <text x="130" y="142" fill="#f7fafc">Java • Spring • NodeJS • Express</text>
     </g>
     <g class="stack-item">
-      <text x="755" y="340" fill="#FFCC00" class="box-line">│</text>
+      <rect x="25" y="152" width="12" height="2" fill="#4ecdc4" rx="1" />
+      <text x="45" y="162" fill="#4ecdc4" class="tech-highlight">Frontend</text>
+      <text x="130" y="162" fill="#f7fafc">React • Angular • JavaScript</text>
     </g>
-    
-    <text x="150" y="340" fill="#FFCC00" class="box-line">│                                                            │</text>
-    <text x="150" y="366" fill="#FFCC00" class="box-line">╰───────────────────────────────────────────────────────╯</text>
-    
-    <rect x="145" y="377" width="20" height="24" class="green-bg" />
-    <text x="150" y="395" fill="#00FF00" class="green-text">$</text>
-    <text x="165" y="395" fill="#00FF00" class="cursor">_</text>
+    <g class="stack-item">
+      <rect x="25" y="172" width="12" height="2" fill="#45b7d1" rx="1" />
+      <text x="45" y="182" fill="#45b7d1" class="tech-highlight">Mobile</text>
+      <text x="130" y="182" fill="#f7fafc">React Native • Android SDK</text>
+    </g>
+    <g class="stack-item">
+      <rect x="25" y="192" width="12" height="2" fill="#f9ca24" rx="1" />
+      <text x="45" y="202" fill="#f9ca24" class="tech-highlight">Database</text>
+      <text x="130" y="202" fill="#f7fafc">MySQL • PostgreSQL • MongoDB</text>
+    </g>
+    <g class="stack-item">
+      <rect x="25" y="212" width="12" height="2" fill="#a55eea" rx="1" />
+      <text x="45" y="222" fill="#a55eea" class="tech-highlight">Others</text>
+      <text x="130" y="222" fill="#f7fafc">Docker • Git • Ngnix</text>
+    </g>
+    <g class="stack-item">
+      <rect x="25" y="232" width="12" height="2" fill="#26de81" rx="1" />
+      <text x="45" y="242" fill="#26de81" class="tech-highlight">OS</text>
+      <text x="130" y="242" fill="#f7fafc">Linux • Arch • Fedora</text>
+    </g>
+    <text x="20" y="275" fill="#00ff41" class="command" filter="url(#textGlow)">➜</text>
+    <text x="40" y="275" fill="#00ff41" class="cursor">_</text>
+  </g>
+  <g opacity="0.3">
+    <circle cx="720" cy="80" r="1" fill="#00ff41">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="680" cy="120" r="1" fill="#4ecdc4">
+      <animate attributeName="opacity" values="1;0;1" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="740" cy="180" r="1" fill="#ff6b6b">
+      <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" />
+    </circle>
   </g>
 </svg>
