@@ -58,7 +58,7 @@
   <text x="400" y="26" fill="#a0aec0" font-family="SF Mono, Monaco, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="500">terminal — Freddy Machaca</text>
   <g font-family="SF Mono, Monaco, Consolas, 'Courier New', monospace" font-size="16">
     <text x="20" y="60" fill="#00ff41" class="command" filter="url(#textGlow)">➜ whoami</text>
-    <text x="30" y="82" fill="#e2e8f0" opacity="0.9">Freddy Machaca - Software Developer</text>
+    <text x="30" y="82" fill="#e2e8f0" opacity="0.9">Freddy Machaca - Software Engineer</text>
     <line x1="20" y1="95" x2="780" y2="95" stroke="url(#greenGlow)" stroke-width="1" opacity="0.3" />
     <text x="20" y="118" fill="#00ff41" class="command" filter="url(#textGlow)">➜ terminal stack --show</text>
     <g class="stack-item">
