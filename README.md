@@ -44,25 +44,26 @@
 <div align="center">
   <picture>
     <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=FreddyMachaca&show_icons=true&theme=radical&bg_color=00000000&text_color=00FF00&icon_color=FD428E&title_color=00FF00&hide_border=true"
+      srcset="https://github-readme-stats-fast.vercel.app/api?username=FreddyMachaca&show_icons=true&theme=radical&bg_color=00000000&text_color=00FF00&icon_color=FD428E&title_color=00FF00&hide_border=true"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api?username=FreddyMachaca&show_icons=true&theme=default"
+      srcset="https://github-readme-stats-fast.vercel.app/api?username=FreddyMachaca&show_icons=true&theme=default&hide_border=true"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FreddyMachaca&show_icons=true&theme=radical&bg_color=00000000&text_color=00FF00&icon_color=FD428E&title_color=00FF00&hide_border=true" />
+    <img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=FreddyMachaca&show_icons=true&theme=radical&bg_color=00000000&text_color=00FF00&icon_color=FD428E&title_color=00FF00&hide_border=true" />
   </picture>
+  
   <picture>
     <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FreddyMachaca&layout=compact&theme=radical&bg_color=00000000&text_color=00FF00&icon_color=FD428E&title_color=00FF00&hide_border=true"
+      srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=FreddyMachaca&layout=compact&theme=radical&bg_color=00000000&text_color=00FF00&icon_color=FD428E&title_color=00FF00&hide_border=true"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FreddyMachaca&layout=compact&theme=default"
+      srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=FreddyMachaca&layout=compact&theme=default&hide_border=true"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreddyMachaca&layout=compact&theme=radical&bg_color=00000000&text_color=00FF00&icon_color=FD428E&title_color=00FF00&hide_border=true" />
+    <img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=FreddyMachaca&layout=compact&theme=radical&bg_color=00000000&text_color=00FF00&icon_color=FD428E&title_color=00FF00&hide_border=true" />
   </picture>
 </div>
 
@@ -73,7 +74,7 @@
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-streak-stats.herokuapp.com/?user=FreddyMachaca&theme=default"
+      srcset="https://github-readme-streak-stats.herokuapp.com/?user=FreddyMachaca&theme=default&hide_border=true"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=FreddyMachaca&theme=radical&background=00000000&ring=00FF00&fire=FD428E&currStreakNum=00FF00&sideNums=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=A9FEF7&hide_border=true" />
