@@ -70,13 +70,13 @@
 <div align="center">
   <picture>
     <source 
-      srcset="https://github-readme-streak-stats.herokuapp.com/?user=FreddyMachaca&theme=radical&background=00000000&ring=00FF00&fire=FD428E&currStreakNum=00FF00&sideNums=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=A9FEF7&hide_border=true"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=FreddyMachaca&bg_color=00000000&color=00FF00&line=FD428E&point=00FF00&area=true&hide_border=true"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-streak-stats.herokuapp.com/?user=FreddyMachaca&theme=default&hide_border=true"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=FreddyMachaca&bg_color=ffffff&color=000000&line=FD428E&point=00FF00&area=true&hide_border=true"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=FreddyMachaca&theme=radical&background=00000000&ring=00FF00&fire=FD428E&currStreakNum=00FF00&sideNums=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=A9FEF7&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=FreddyMachaca&bg_color=00000000&color=00FF00&line=FD428E&point=00FF00&area=true&hide_border=true" />
   </picture>
 </div>
